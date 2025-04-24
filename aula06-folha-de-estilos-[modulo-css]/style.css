@@ -1,0 +1,72 @@
+/* 
+seletor {
+    margin:;
+    padding:;
+    width:;
+    height:;
+    (...)
+    background:;
+    float:;
+    }
+*/
+body {
+    margin:35px;
+    color: white;
+    background: black;
+    }
+
+    #titulo {        
+        padding: 10px;
+        color: white;
+        text-align: center;
+        }
+
+        #titulo:hover {
+            padding: 10px;
+            color: brown;
+            background: white;
+            }
+
+    .descricao {
+        color: beige;
+        font-family: Trebuchet MS;
+        text-align: justify;
+        line-height: 24px;
+        }
+
+    #divisoria {
+        margin: 20px 0px;
+        }
+
+    .professor {
+        padding: 10px;
+        background: none;
+        width: 100%;
+        transition: all 0.5s ease;
+        }
+
+        .professor:hover {
+            background: #333;
+            transition: all 0.5s ease;
+            }
+
+        .fotografia {
+            margin-right: 15px;
+            width: 40%;
+            border-radius: 100%;
+            float: left;
+            }
+
+        .nome {
+
+            }
+
+        .profissao {
+
+            }
+
+        .release {
+
+            }
+
+        
