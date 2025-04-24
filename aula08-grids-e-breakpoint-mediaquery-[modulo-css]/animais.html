@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #geral {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            }
+
+        .animais {
+            width: 200px;
+            height: 200px;
+            opacity: 0.8;
+            border-radius: 25px;
+            transition: all 0.3s;
+        }
+        
+        .animais:hover {
+            opacity: 1;
+            transition: all 0.3s;
+            box-shadow: gray 20px 15px 20px;
+            scale: 0.9;
+            }
+
+        .laranja {background:orangered;}
+        .amarelo {background: yellow;}
+        .azul {background: blue;}
+        .vermelho {background: red;}
+
+        @media only screen and (max-width: 960px) {
+            #geral {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div id="geral">
+        <div class="animais laranja"></div>
+        <div class="animais azul"></div>
+        <div class="animais amarelo"></div>
+        <div class="animais vermelho"></div>
+        <div class="animais laranja"></div>
+        <div class="animais azul"></div>
+        <div class="animais amarelo"></div>
+        <div class="animais vermelho"></div>
+    </div>
+</body>
+</html>
