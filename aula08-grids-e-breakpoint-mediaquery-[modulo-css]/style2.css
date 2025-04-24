@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    }
+
+    #cards {
+        padding: 10px;
+        /* acima é o espaço interno do bloco e abaixo os dados de cada frame */
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        }
+
+        .card {
+            /* margin: 10px; */
+            /* width: 100px; */
+            height: 100px;
+            color: #fff;
+            background: #f60;
+            border-radius: 10px;
+            /* float: left; */
+            }
+
+@media only screen and (max-width: 960px) {
+    #cards {
+        grid-template-columns:1fr 1fr;
+        }
+    }
+
+
+@media only screen and (max-width: 370px) {
+        #cards {
+            grid-template-columns:1fr;
+            }
+        }
