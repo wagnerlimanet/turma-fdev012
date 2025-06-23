@@ -1,0 +1,43 @@
+/********************************/
+.amarelo {background: #e7b902;}
+.rosa {background: #f03cc3;}
+.vermelho {background: #ff3845;}
+.lilas {background: #8f4af7;}
+.verde {background: #0ecc6a;}
+.azul {background: #01a5fc;}
+
+a {text-decoration: none;}
+/********************************/
+
+#animais {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr 1fr  1fr 1fr 1fr;
+    gap: 10px;
+    }
+
+    .animal {
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        color: #fff;
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+    
+    .animal:hover {
+        scale: 0.9;
+        opacity: 0.9;
+        box-shadow: #777 5px 3px 15px;
+        transition: all 0.3s ease;
+        }
+
+        /* .foto {} */
+
+        .titulo {
+            margin: 0;
+            }
+
+        .subtitulo {
+            margin: 0;
+            }
+
