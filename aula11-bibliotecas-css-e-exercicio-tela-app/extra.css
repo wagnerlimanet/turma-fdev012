@@ -1,0 +1,41 @@
+.centralizado {
+    margin: 20px;
+    text-align: center;
+    }
+
+    #cabecalho {
+        margin: 50px auto;
+        width: 1200px;
+        }
+
+    #cardsicons {
+        margin: 50px auto;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
+        }
+    
+        .card {
+            padding: 20px 0px;
+            text-align: center;
+            border-radius: 20px;
+            scale: 0.95;
+            background: #fffcfd;
+            background: radial-gradient(circle, rgba(255, 252, 253, 1) 40%, rgb(201, 201, 201) 100%);
+            transition: all 0.3s ease;
+            }
+        
+        .card:hover {
+            background: #fffcfd;
+            background: radial-gradient(circle, rgba(255, 252, 253, 1) 40%, rgb(163, 163, 163) 100%);
+            box-shadow: #333 8px 5px 8px;
+            scale: 0.9;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            }
+    
+            .card span {
+                font-size: 48px;
+                }
+    
