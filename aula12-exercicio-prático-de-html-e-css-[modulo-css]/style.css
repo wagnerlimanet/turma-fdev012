@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    }
+
+    .row {
+        width: 100%;
+        }
+
+    .container {
+        width: 1360px;
+        }
+
+    #topo {
+        background: #333;
+        }
+
+        #navegacao {
+            margin: 0px auto;
+            background: violet;
+            }
+
+            #logo {
+                width: 20%;
+                float: left;
+                }
+
+                #logo img {
+                    margin: 10px 0px;
+                    width: 70%;
+                    }
+
+            #menu {
+                width: 50%;
+                text-align: right;
+                float: left;
+                }
+
+                #menu ul {
+                    margin-top: 40px;
+                    }
+
+                #menu ul li {
+                    display: inline;
+                    margin-right: 30px;
+                    }
+
+                    .link {
+                        color: #ccc;
+                        font-size: 18px;
+                        text-decoration: none;
+                        font-family: Trebuchet MS;
+                        }
+
+                    .link:hover {
+                        color: #fff;
+                        }
+
+            #busca {
+                padding-top: 30px;
+                width: 30%;
+                float: left;
+                }
+
+                #busca input {
+                    padding: 10px;
+                    border: 0px;
+                    border-radius: 7px;
+                    font-size: 16px;
+                    }
+
+                #busca button {
+                    padding: 10px;
+                    color: #ffc107;
+                    border-radius: 7px;
+                    border: solid 1px #ffc107;
+                    background: none;
+                    font-size: 16px;
+                    transition: all 0.3s ease;
+                }
+                
+                #busca button:hover {
+                    padding: 10px;
+                    color: #333;
+                    border-radius: 7px;
+                    border: solid 1px #ffc107;
+                    background: #ffc107;
+                    transition: all 0.3s ease;
+                    }
+
+        #banner {
+            margin: 0px;
+            }

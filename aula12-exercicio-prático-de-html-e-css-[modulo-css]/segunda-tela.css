@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    }
+
+    .row {
+        width: 100%;
+        }
+
+    .container {
+        width: 1360px;
+        }
+
+    #topo {
+        background: #333;
+        }
+
+        #navegacao {
+            margin: 0px auto;
+            background: violet;
+            }
+
+            #logo {
+                width: 20%;
+                float: left;
+                }
+
+            #menu {
+                width: 50%;
+                float: left;
+                }
+
+            #busca {
+                width: 30%;
+                float: left;
+                }
+
+        #banner {
+            margin: 0px;
+            }
